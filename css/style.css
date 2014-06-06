@@ -1,0 +1,181 @@
+/* ------Css Prolog ----- */
+html										{ font-size:106.5% }
+body										{ margin: 0; padding: 0; font: 76.5% Arial, Verdana, sans-serif; color: #000; background: #fff; text-align: left; }
+
+p,img,table,tr,th,td,dl,dt,
+dd,h1,h2,h3,h4,h5, ul,li					{ border: 0px none; margin: 0px; padding: 0px; list-style-type: none; }
+h1,h2,h3,h4,h5								{ font-size: 150%; font-weight: normal; }
+
+.blind										{ position: absolute; left: -1000px; top: -1000px; width: 1px; height: 1px; overflow: hidden; }
+
+.cleaner									{ clear: both; height: 1px; overflow: hidden; }
+.cleaner hr									{ display: none; }
+
+.group:after								{ content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+* html .group								{ height: 1%; }
+*:first-child+html .group					{ min-height: 1px; } 
+h1.homepage 								{color: #f7f7f7; font: 210% Fertigo, Arial, sans-serif; overflow: hidden;}
+h2.homepage 								{color: #f7f7f7; font: 200% Fertigo, Arial, sans-serif; overflow: hidden;}
+
+a 											{ color: #f5005b; }
+a:hover										{ color: #fff; }
+
+/* ------ Common style for all pages ----- */
+body										{ background: #000; text-align: center; }
+@font-face 									{ font-family: Fertigo; src: url(../font/FertigoPro.otf); }
+#mainContent								{ margin: 0 auto; width: 960px; text-align: left; }
+#page										{ background: #000 url(../img/background.png) 0 0 repeat; }
+
+/* ------ Header ----- */
+#header										{ position: relative; margin: 0 auto; width: 960px; height: 150px; font-family: Fertigo, Arial, sans-serif; text-align: left; }
+#header img									{ float: left; display: inline; margin: 0 50px 0 20px; }									
+#header h1									{ position: absolute; top: 20px;  left: 240px; font-size: 450%; color: #f7f7f7; overflow: hidden; }
+#header h1 a								{ color: #fff; text-decoration: none; }
+#header h1 a:hover 							{ color: #f5005b;}
+#header div.logo									{ position: absolute; top: 20px;  left: 240px; font-size: 450%; color: #f7f7f7; overflow: hidden; }
+#header div.logo a								{ color: #fff; text-decoration: none; }
+#header div.logo a:hover 							{ color: #f5005b;}
+#header h2									{ position: absolute; top: 80px; left: 240px; font-size: 300%; color: #666; }
+
+/* ------ Menu ----- */
+#menu										{ position: relative; top: 1px; margin: 0 auto; width: 960px; clear: both; margin-top: 30px; font: 140% Fertigo, Arial, sans-serif; text-align: left; }
+#menu li									{ float: left; }
+#menu li a									{ display: block; padding: 12px; color: #666; text-decoration: none; }
+#menu li:hover								{ border-bottom: 1px solid #f5005b;}
+#menu li a:hover							{ color: #ccc; }
+#menu li.active								{ border-bottom: 1px solid #f5005b; }
+#menu li.active a							{ color: #f5005b; }
+
+#menu li.first								{ display: inline; margin-left: 18px; }
+
+/* ------ Photo line ----- */
+#photos										{ clear: both; padding: 1px 0; background: #fff; text-align: center; }
+#photos .content							{ margin: 0 auto;  height: 150px; background: url(../img/photos3.jpg) 0 0 repeat-x; }
+#photos	img									{ display: block; }
+
+/* ------ Services ----- */
+#services									{ padding: 30px 20px; border-bottom: 1px solid #333; }
+#services .service							{ position: relative; float: left; width: 183px; margin-right: 40px; }
+#services .artist							{ position: absolute; bottom: 5px; left: 135px; color: #ccc; }
+
+
+#services .service h3						{ position: relative; color: #f7f7f7; font: 200% Fertigo, Arial, sans-serif; }
+
+/* #services .service:hover h3					{ color: #f5005b; } */
+#services .active h3						{ color: #f5005b; }
+#services .service p						{ color: #999; padding: 10px 0; }
+#services .service a						{ display: block; padding: 5px 0; width: 4em; background: #f5005b; color: #fff; font-size: 85%; text-decoration: none; text-align: center; -moz-border-radius: 5px; border-radius: 5px; }
+#services .service a:hover					{ background: #f7f7f7; color: #000; }
+#services .last								{ width: 251px; margin: 0; }
+#services .last	p							{ width: 200px; }
+
+/* ------ Job ------ */
+#job 										{ margin: 20px 20px 0; padding: 10px; background: #b30747; }
+#job h4										{ color: #f7f7f7; }
+
+/* ------ Info ----- */
+#info										{ padding: 30px 20px; border-bottom: 1px solid #333; }
+#info #welcome								{ float: left; width: 630px; margin-right: 39px; }
+#info #welcome h4							{ position: relative; height: 30px; width: 354px; color: #f7f7f7; font: 200% Fertigo, Arial, sans-serif; overflow: hidden; }
+#info #welcome p							{ color: #999; padding: 10px 0; }
+#info #address								{ color: #f7f7f7; }
+#info #address .city						{ font: 200% Fertigo, Arial, sans-serif; }
+#info #address .address						{ font: 200% Fertigo, Arial, sans-serif; }
+#info #address .phone						{ font-weight: bold; font-size: 140%; padding: 2px 0; }
+#info #address .openHour					{ color: #666; font-weight: bold; font-size: 140%; }
+
+/* ------ Recently work ----- */
+#news										{ padding: 30px 20px; }
+#news h4									{ position: relative; width: 206px; height: 30px; color: #f7f7f7; font: 200% Fertigo, Arial, sans-serif; overflow: hidden; }
+#news p										{ padding: 20px 0; color: #999; }
+#news p	a									{ color: #f5005b; }
+#news p	a:hover								{ color: #f7f7f7; }
+#news p .date								{ padding-right: 10px; font-weight: bold; font-size: 125%; color: #fff; }
+
+#news .sample								{ padding: 10px 0; }
+#news .sample a								{ float: left; position: relative; width: 162px; height: 126px; margin-right: 5px; overflow: hidden; }
+#news .sample a	img							{ position: relative; display: block; width: 100%; }
+#news .sample a.border 						{ border: 3px solid #fff; width: 156px; }
+#news .sample a span						{ position: absolute; bottom: 3px; right: 3px; width: 68px; height: 40px; background: url(../img/new-label.gif) 0 0 repeat;  }
+
+/* ------ Tattoo ----- */
+#line										{ clear: both; width: 920px; margin: 0 auto; border-top: 1px solid #333; }
+
+#leftColumn									{ float: left; width: 383px; margin: 0 20px; padding: 30px 0; }
+#leftColumn h1								{ position: relative; font: 250% Fertigo, Arial, sans-serif; color: #fff; }
+#leftColumn h2								{ position: relative; font: 250% Fertigo, Arial, sans-serif; color: #fff; }
+#leftColumn h3								{ padding-top: 10px; font: 200% Fertigo, Arial, sans-serif; color: #fff; }
+#leftColumn p								{ padding: 10px 0; color: #999; }
+#leftColumn a.button						{ float: left; padding: 5px 7px; background: #666666; color: #fff; font-size: 110%; text-decoration: none; text-align: center; -moz-border-radius: 5px; border-radius: 5px; }
+#leftColumn a.button:hover					{ background: #fff; color: #000; }
+#mainContent li.active						{ background: #ffdddd; }
+
+#gallery									{ position: relative; float: left; display: inline; width: 497px; margin-left: 20px; padding: 30px 0; }
+#gallery h2									{ position: relative; width: 300px; height: 40px; margin-bottom: 10px; font: 250% Fertigo, Arial, sans-serif; color: #fff; }
+#gallery #mainPhoto							{ position: relative; display: block; height: 257px; width: 492px; margin-bottom: 4px; }
+#gallery #mainPhoto	img						{ display: block; position: static !important; }	
+#gallery #mainPhoto	span					{ position: absolute; bottom: 3px; right: 3px; width: 68px; height: 40px; background: url(../img/new-label.gif) 0 0 repeat;  }
+#gallery .gallery a							{ float: left; position: relative; width: 120px; height: 93px; margin: 0 4px 4px 0; overflow: hidden; }
+#gallery .gallery a.border 					{ background: #fff; border-top: 2px solid #fff; border-bottom: 2px solid #fff; height: 89px;; }
+#gallery .gallery a img						{ position: relative; display: block; margin: auto; }
+/*#gallery .gallery a img.active				{ top: -93px; } */
+#gallery .gallery a span					{ position: absolute; bottom: 3px; right: 3px; width: 68px; height: 40px; background: url(../img/new-label.gif) 0 0 repeat;  }
+
+#gallery #paging							{ clear: both; }
+#gallery #paging a							{ float: left; margin-left: 2px; padding: 3px 8px; background: #333; color: #fff; text-decoration: none; }
+#gallery #paging a:hover					{ background: #ccc; color: #333; }
+#gallery #paging a.active					{ background: #f5005b; color: #fff; }
+
+/* ------ Piercing ----- */
+#leftColumn	dl								{ margin: 10px 0; color: #fff;}
+#leftColumn	dt								{ float: left; width: 200px; }
+#leftColumn	dd								{ padding-bottom: 4px; font-weight: bold; }
+
+/* ------ Tattoo Repair ----- */
+#gallery h2.tattooRepair					{ width: 400px; }
+
+#gallery .gallery1 a						{ float: left; position: relative; width: 244px; height: 93px; margin: 0 4px 4px 0; overflow: hidden; }
+#gallery .gallery1 a img					{ position: relative; display: block; }
+#gallery .gallery1 a img.active				{ top: -93px; }
+
+/* ------ Makeup ----- */
+.makeup #gallery 							{ width: 498px; }
+.makeup .gallery2 a							{ float: left; position: relative; width: 162px; height: 162px; margin: 0 4px 4px 0; overflow: hidden; }
+.makeup .gallery2 a img						{ position: relative; display: block; }
+.makeup .gallery2 a img.active				{ top: -162px; }
+/*
+#gallery .gallery2 a						{ display: block; position: relative; width: 496px; height: 93px; margin: 0 4px 4px 0; overflow: hidden; }
+#gallery .gallery2 a img					{ position: relative; display: block; }
+#gallery .gallery2 a img.active				{ top: -93px; }
+*/
+
+/* ------ Contact ----- */
+#mapColumn									{ position: relative; float: left; display: inline; width: 497px; margin-left: 20px; padding: 30px 0; }
+#mapColumn h2								{ position: relative; width: 300px; margin-bottom: 10px; font: 250% Fertigo, Arial, sans-serif; color: #fff; }
+#mapColumn #mapWrap							{ margin-top: 7px; background: #fff; padding: 3px; } 
+
+.contact a									{ color: #f5005b; }
+.contact ul									{ margin: 10px 0; }
+.contact ul li								{ color: #999; }
+.contact #address							{ margin: 46px 0 20px; font: 240% Fertigo, Arial, sans-serif; }
+.contact #address li						{ color: #f7f7f7; }
+.contact #address .zipCode					{ color: #666; font-weight: bold; font-size: 85%; }
+
+.piercing .action 							{ background: #f5005b; padding: 5px 10px; }
+
+#links										{ clear: both; margin: 20px; padding: 20px 0; border-top: 1px solid #333; }
+#links h3									{ font: 200% Fertigo, Arial, sans-serif; color: #fff; }
+#links ul									{ float: left; margin-right: 50px; }
+#links ul a									{ color: #999; }
+
+/* ------ studio ----- */
+.studio #mainContent						{ margin: 0 auto; padding: 20px 0 40px; }
+.studio #mainContent h2						{ position: relative; width: 300px; margin: 0 0 20px 40px; color: #FFFFFF; font: 250% Fertigo,Arial,sans-serif; }
+.studio img									{ display: block; margin: 0 0 2px 40px; }
+
+/* ------ Footer ----- */
+#footer										{ padding: 15px 30px; background: #000; color: #ccc; }
+#footer	p									{ margin: 0 auto; width: 920px; text-align: left; }
+#footer	p #facebook							{ float: left; padding: 6px 0 6px 35px; background: url(../img/fb-icon1.png) 0 0 no-repeat; color: #ccc; }
+
+				

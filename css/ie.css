@@ -1,0 +1,52 @@
+/* ------ Header ----- */									
+#header h1									{ width: 365px; height: 60px; overflow: hidden; }
+#header h1 a								{ color: #fff; text-decoration: none; }
+#header h1 span								{ position: absolute; top: 0; left: 0; width: 365px; height: 60px; background: url(../img/tattoo-lexus.jpg) 0 0 no-repeat; z-index: 100; }
+#header h1 a:hover span						{ background-position: 0 -60px;}
+#header h2									{ top: 75px; height: 44px; width: 519px; overflow: hidden; }
+#header h2 span								{ position: absolute; top: 0; left: 0; height: 44px; width: 519px; background: url(../img/subtitle.jpg) 0 0 no-repeat; z-index: 100; }
+
+/* ------ Services ----- */
+#services .service h3						{ height: 31px; width: 168px; overflow: hidden; }
+#services .service h3 span					{ position: absolute; top: 0; left: 0; height: 31px; width: 168px; z-index: 100; }
+#services .service h3.tattoo span			{ background: url(../img/tattoo-title.jpg) 0 0 no-repeat; }
+#services .service h3.piercing span			{ background: url(../img/piercing-title.jpg) 0 0 no-repeat; }
+#services .service h3.branding span			{ background: url(../img/branding-title.jpg) 0 0 no-repeat; }
+#services .service h3.makeup 				{ width: 258px; }
+#services .service h3.makeup span			{ width: 258px; background: url(../img/makeup-title.jpg) 0 0 no-repeat; }
+#services .active h3 span					{ background-position: 0 -31px !important; }
+
+/* ------ Info ------- */
+#info #welcome h4 span						{ position: absolute; top: 0; right: 0; height: 30px; width: 354px; background: url(../img/welcome-title.jpg) 0 0 no-repeat; z-index: 100; }
+
+/* ------ News ------- */
+#news h4 span								{ position: absolute; top: 0; left: 0; width: 206px; height: 30px; background: url(../img/recent-work-title.jpg) 0 0 no-repeat; z-index: 100; }
+
+/* ------ Tattoo ----- */
+#leftColumn h2.tattoo						{ width: 143px; height: 35px; overflow: hidden; }
+#leftColumn h2.tattoo span					{ position: absolute; top: 2px; left: 0; width: 143px; height: 30px; background: url(../img/tattoo-title1.jpg) 0 0 no-repeat; z-index: 100; }
+
+#gallery h2									{ width: 272px; height: 35px; overflow: hidden; }
+#gallery h2 span							{ position: absolute; top: 2px; left: 0; width: 272px; height: 30px; background: url(../img/gallery-tattoo-title.jpg) 0 0 no-repeat; z-index: 100; }
+
+/* ------ Tattoo Repair ----- */
+#leftColumn h2.tattooRepair					{ width: 254px; height: 36px; overflow: hidden; }
+#leftColumn h2.tattooRepair span			{ position: absolute; top: 0; left: 0; width: 254px; height: 36px; background: url(../img/tattoo-repair-title.jpg) 0 0 no-repeat; z-index: 100; }
+
+#gallery h2.tattooRepair					{ width: 368px; height: 36px; overflow: hidden; }
+#gallery h2.tattooRepair span				{ position: absolute; top: 0; left: 0; width: 368px; height: 36px; background: url(../img/gallery-tattoo-repair-title.jpg) 0 0 no-repeat; z-index: 100; }
+
+
+/* ------ Branding ----- */
+#leftColumn h2.branding						{ width: 143px; height: 36px; overflow: hidden; }
+#leftColumn h2.branding span				{ position: absolute; top: 0; left: 0; width: 143px; height: 36px; background: url(../img/branding-title1.jpg) 0 0 no-repeat; z-index: 100; }
+
+#gallery h2.branding						{ width: 272px; height: 36px; overflow: hidden; }
+#gallery h2.branding span					{ position: absolute; top: 0; left: 0; width: 272px; height: 36px; background: url(../img/gallery-branding-title.jpg) 0 0 no-repeat; z-index: 100; }
+
+/* ------ Piercing ----- */
+#leftColumn h2.piercing						{ width: 143px; height: 36px; overflow: hidden; }
+#leftColumn h2.piercing span				{ position: absolute; top: 0; left: 0; width: 143px; height: 36px; background: url(../img/piercing-title1.jpg) 0 0 no-repeat; z-index: 100; }
+
+#gallery h2.piercing						{ width: 272px; height: 36px; overflow: hidden; }
+#gallery h2.piercing span					{ position: absolute; top: 0; left: 0; width: 272px; height: 36px; background: url(../img/gallery-piercing-title.jpg) 0 0 no-repeat; z-index: 100; }			
