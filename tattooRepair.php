@@ -15,11 +15,29 @@
 			<div id="line"></div>
 			<div id="mainContent" class="group">
 				<div id="gallery" class="group">
-					<div id="photo1" class="gallery1">				
-						<a href="img/gallery/tattoo-repair/31.jpg" id="mainPhoto" title="opravené tetování" >
-							<img src="img/gallery/tattoo-repair/thumb/main-photo.jpg" alt="opravené tetování" />
+					<div id="photo1" class="gallery1">
+						<a href="img/gallery/tattoo-repair/46.jpg" title="opravené tetování">
+							<img src="img/gallery/tattoo-repair/thumb/46.jpg" alt="opravené tetování" class="thumb" />
 						</a>
-						
+						<a href="img/gallery/tattoo-repair/47.jpg" title="opravené tetování">
+							<img src="img/gallery/tattoo-repair/thumb/47.jpg" alt="opravené tetování" class="thumb" />
+						</a>
+						<a href="img/gallery/tattoo-repair/48.jpg" title="opravené tetování">
+							<img src="img/gallery/tattoo-repair/thumb/48.jpg" alt="opravené tetování" class="thumb" />
+						</a>
+						<a href="img/gallery/tattoo-repair/49.jpg" title="opravené tetování">
+							<img src="img/gallery/tattoo-repair/thumb/49.jpg" alt="opravené tetování" class="thumb" />
+						</a>
+						<a href="img/gallery/tattoo-repair/50.jpg" title="opravené tetování">
+							<img src="img/gallery/tattoo-repair/thumb/50.jpg" alt="opravené tetování" class="thumb" />
+						</a>
+						<a href="img/gallery/tattoo-repair/51.jpg" title="opravené tetování">
+							<img src="img/gallery/tattoo-repair/thumb/51.jpg" alt="opravené tetování" class="thumb" />
+						</a>
+						<a href="img/gallery/tattoo-repair/52.jpg" title="opravené tetování">
+							<img src="img/gallery/tattoo-repair/thumb/52.jpg" alt="opravené tetování" class="thumb" />
+						</a>
+
 						<a href="img/gallery/tattoo-repair/39.jpg" title="opravené tetování">
 							<img src="img/gallery/tattoo-repair/thumb/39.jpg" alt="opravené tetování" class="thumb" />
 						</a>
@@ -161,7 +179,7 @@
 				<div id="leftColumn">
 					<h2 class="tattooRepair">Tetování opravy<span></span></h2>
 					<p>
-						Pokud máš tetování, ale s jeho podobou ti již nevyhovuje (tetování je vybledlé, už se ti nelíbí tak jako před lety ...) zastavte se u nás ve studiu.
+						Pokud máš tetování, ale jeho podoba ti již nevyhovuje (tetování je vybledlé, už se ti nelíbí tak jako před lety ...) zastavte se u nás ve studiu.
 						Rádi ti poradíme a společně vymyslíme jak tetování upravit, aby bylo zase podle tvých představ. 
 					</p>
 					<p>
@@ -175,16 +193,7 @@
 				<script type="text/javascript">
 				/* <![CDATA[ */ 					
 					$(document).ready(function() {
-	   					
-	   					/* Set hover effect on thmubs */
-						$(".gallery1 img").hover(function() {
-	     					$(this).addClass("active");
-	   					});
-	   					
-	   					$(".gallery1 img").mouseout(function() {
-	     					$(this).removeClass("active");
-	   					});
-						   
+						
 						/* Set lightbox */
 	   					$(function() {
 	        				$('.gallery1 a').lightBox();
