@@ -115,9 +115,11 @@ body										{ background: #000; text-align: center; }
 #gallery #mainPhoto							{ position: relative; display: block; height: 257px; width: 492px; margin-bottom: 4px; }
 #gallery #mainPhoto	img						{ display: block; position: static !important; }	
 #gallery #mainPhoto	span					{ position: absolute; bottom: 3px; right: 3px; width: 68px; height: 40px; background: url(../img/new-label.gif) 0 0 repeat;  }
+/*
 #gallery .gallery a							{ float: left; position: relative; width: 120px; height: 93px; margin: 0 4px 4px 0; overflow: hidden; }
 #gallery .gallery a.border 					{ background: #fff; border-top: 2px solid #fff; border-bottom: 2px solid #fff; height: 89px;; }
 #gallery .gallery a img						{ position: relative; display: block; margin: auto; }
+*/
 /*#gallery .gallery a img.active				{ top: -93px; } */
 #gallery .gallery a span					{ position: absolute; bottom: 3px; right: 3px; width: 68px; height: 40px; background: url(../img/new-label.gif) 0 0 repeat;  }
 
