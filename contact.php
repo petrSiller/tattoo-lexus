@@ -64,7 +64,10 @@
 				<div id="links" class="group">
 					<h3>Zajímavé odkazy</h3>
 					<ul>
-			            <li>
+						<li>
+							<a href="http://www.the-night-life.cz/" title="Tvoříme prostor pro vaši noční zábavu">Night life</a>
+						</li>
+						<li>
 			                <a href="http://www.autochip.eu" title="Profesionální ChipTuning - zvýšení výkonu a snížení spotřeby">AutoChip - ChipTuning</a>
 			            </li>
 			            <li>
