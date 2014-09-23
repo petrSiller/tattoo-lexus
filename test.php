@@ -62,11 +62,11 @@
 				<script type="text/javascript">
 					window.fbAsyncInit = function() {
 						FB.init({
-						  appId      : '1475932389359343',
+						  appId      : '736112146462467',
 						  xfbml      : true,
 						  version    : 'v2.1',
-						  oauth      : true,
-						  access_token : '802fcdc8eeab5a7f573429a297cb4f55'
+						  cookie: true, 
+						  status: true
 						});
 
 						// *** here is my code ***
@@ -84,20 +84,19 @@
 					}(document, 'script', 'facebook-jssdk'));
 
 					function facebookInit(){
-						FB.login(function(response) {
-						   if (response.authResponse) {
-						     console.log('Welcome!  Fetching your information.... ');
-						     FB.api('/me', function(response) {
-						       console.log('Good to see you, ' + response.name + '.');
-						     });
-						   } else {
-						     console.log('User cancelled login or did not fully authorize.');
-						   }
-						 });
+						FB.login();
+						
+						FB.getLoginStatus(function (response) {
+				            if (response.authResponse) {
+				                console.log(response.authResponse.accessToken);
+				            } else {
+				                console.error('no response');
+				            }
+				        });
 
 						FB.api(
 						    "/10152445826724321",
-						    {access_token: '802fcdc8eeab5a7f573429a297cb4f55'},
+						    {access_token: 'ebacaafb004c8a701ac5a6566f90e39c'},
 						    function (response) {
 						      if (response && !response.error) {
 						        console.log(response);

@@ -107,6 +107,8 @@
 						Branding nebo-li cejchování je proces při kterém se do kůže na místo, které si vyberete, vypaluje rozžhavená chirurgická ocel. 
 						Výpálené místo se pak schladí ve vodě. Po vypálení zůstávají jizvy ve tvaru vámi vybraného motivu. Tento zákrok je velmi bolestivý. 
 					</p>
+
+					<p class="notice-text">Více fotografií a akcí najdete na naší <a href="https://www.facebook.com/pages/Tattoo-LEXUS/150088264320?sk=photos_stream">facebook stránce</a></p>
 					<p>
 						Branding se dá kombinovat i s piercingem nebo tetováním. Pokud se pro Branding zatím rozhodujete, můžete se zastavit u nás ve 
 						studiu kde vám rádi ohledně Brandingu poradíme.

@@ -26,6 +26,9 @@ body										{ background: #000; text-align: center; }
 #mainContent								{ margin: 0 auto; width: 960px; text-align: left; }
 #page										{ background: #000 url(../img/background.png) 0 0 repeat; }
 
+.notice-text								{ background: #f5005b; padding: 5px 10px !important; color: #fff !important; }
+.notice-text a 								{ color: #fff !important; }
+
 /* ------ Header ----- */
 #header										{ position: relative; margin: 0 auto; width: 960px; height: 150px; font-family: Fertigo, Arial, sans-serif; text-align: left; }
 #header img									{ float: left; display: inline; margin: 0 50px 0 20px; }									
@@ -115,13 +118,14 @@ body										{ background: #000; text-align: center; }
 #gallery #mainPhoto							{ position: relative; display: block; height: 257px; width: 492px; margin-bottom: 4px; }
 #gallery #mainPhoto	img						{ display: block; position: static !important; }	
 #gallery #mainPhoto	span					{ position: absolute; bottom: 3px; right: 3px; width: 68px; height: 40px; background: url(../img/new-label.gif) 0 0 repeat;  }
-/*
+
 #gallery .gallery a							{ float: left; position: relative; width: 120px; height: 93px; margin: 0 4px 4px 0; overflow: hidden; }
 #gallery .gallery a.border 					{ background: #fff; border-top: 2px solid #fff; border-bottom: 2px solid #fff; height: 89px;; }
 #gallery .gallery a img						{ position: relative; display: block; margin: auto; }
-*/
+
 /*#gallery .gallery a img.active				{ top: -93px; } */
 #gallery .gallery a span					{ position: absolute; bottom: 3px; right: 3px; width: 68px; height: 40px; background: url(../img/new-label.gif) 0 0 repeat;  }
+#gallery .gallery a span
 
 #gallery #paging							{ clear: both; }
 #gallery #paging a							{ float: left; margin-left: 2px; padding: 3px 8px; background: #333; color: #fff; text-decoration: none; }
@@ -162,8 +166,6 @@ body										{ background: #000; text-align: center; }
 .contact #address							{ margin: 46px 0 20px; font: 240% Fertigo, Arial, sans-serif; }
 .contact #address li						{ color: #f7f7f7; }
 .contact #address .zipCode					{ color: #666; font-weight: bold; font-size: 85%; }
-
-.piercing .action 							{ background: #f5005b; padding: 5px 10px; }
 
 #links										{ clear: both; margin: 20px; padding: 20px 0; border-top: 1px solid #333; }
 #links h3									{ font: 200% Fertigo, Arial, sans-serif; color: #fff; }

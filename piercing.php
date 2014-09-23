@@ -185,7 +185,7 @@
 					<!-- <h1 class="piercing">Tattoo Lexus - piercing Brno<span></span></h1> -->
 					
 					<h1>Akce piercing</h1>
-					<dl class="action">
+					<dl class="notice-text">
 						<dt>šperk + vpich</dt><dd>650,- Kč</dd>
 						<dt>vpich</dt><dd>500,- Kč</dd>
 					</dl>
@@ -194,6 +194,8 @@
 						se používají nejčastěji, protože se s nimi tělo dobře snáší. Piercing je možné umístit prakticky na jakoukoliv část těla. 
 						Nejběžnější místa pro <strong>piercing</strong> jsou samozřejmě uši, obočí jazky, pupík … 
 					</p>
+
+					<p class="notice-text">Více fotografií a akcí najdete na naší <a href="https://www.facebook.com/pages/Tattoo-LEXUS/150088264320?sk=photos_stream">facebook stránce</a></p>
 					
 					<p>
 						Šperky (ozdoby) si můžete vybrat přímo u nás ve studiu z naší široké nabídky šperků. Nabídka se liší čas od času podle

@@ -185,6 +185,7 @@
 					<p>
 						Podívej se také na naše ukázky, jak může takové upravené tetování vypadat. 
 					</p>
+					<p class="notice-text">Více fotografií a akcí najdete na naší <a href="https://www.facebook.com/pages/Tattoo-LEXUS/150088264320?sk=photos_stream">facebook stránce</a></p>
 					<h3>Potřebujete poradit?</h3>
 					<p>Napište nám nám svůj dotaz na facebook a nebo nás kontatkujte přímo</p>
 					<a href="http://www.facebook.com/pages/Tattoo-LEXUS/150088264320" class="button" onclick="_gaq.push(['_trackEvent', 'toFacebook', 'clicked'])">Napište nám na facebook</a>
