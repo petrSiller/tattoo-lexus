@@ -29,6 +29,8 @@ body										{ background: #000; text-align: center; }
 .notice-text								{ background: #f5005b; padding: 5px 10px !important; color: #fff !important; }
 .notice-text a 								{ color: #fff !important; }
 
+.text-center 								{ text-align: center; }
+
 /* ------ Header ----- */
 #header										{ position: relative; margin: 0 auto; width: 960px; height: 150px; font-family: Fertigo, Arial, sans-serif; text-align: left; }
 #header img									{ float: left; display: inline; margin: 0 50px 0 20px; }									

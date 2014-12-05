@@ -184,10 +184,10 @@
 				<div id="leftColumn">
 					<!-- <h1 class="piercing">Tattoo Lexus - piercing Brno<span></span></h1> -->
 					
-					<h1>Akce piercing</h1>
+					<h1>Vánoční akce piercing</h1>
 					<dl class="notice-text">
-						<dt>šperk + vpich</dt><dd>650,- Kč</dd>
-						<dt>vpich</dt><dd>500,- Kč</dd>
+						<dt>šperk + vpich</dt><dd>450,- Kč</dd>
+						<!-- <dt>vpich</dt><dd>500,- Kč</dd> -->
 					</dl>
 					<p>
 						Piercing představuje zkrášlování těla různými šperky (ozdobami), dnes již převážně z <strong>chirurgické oceli</strong> a <strong>titanu</strong>. Ty 
@@ -195,7 +195,7 @@
 						Nejběžnější místa pro <strong>piercing</strong> jsou samozřejmě uši, obočí jazky, pupík … 
 					</p>
 
-					<p class="notice-text">Více fotografií a akcí najdete na naší <a href="https://www.facebook.com/pages/Tattoo-LEXUS/150088264320?sk=photos_stream">facebook stránce</a></p>
+					<p>Více fotografií a akcí najdete na naší <a href="https://www.facebook.com/pages/Tattoo-LEXUS/150088264320?sk=photos_stream">facebook stránce</a></p>
 					
 					<p>
 						Šperky (ozdoby) si můžete vybrat přímo u nás ve studiu z naší široké nabídky šperků. Nabídka se liší čas od času podle

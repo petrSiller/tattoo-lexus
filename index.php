@@ -60,6 +60,9 @@
 						<em class="artist">Renata</em>
 					</div>
 				</div>
+				<div class="notice-text text-center">
+					<h3>Vánoční akce piercing: šperk + vpich 450,- Kč</h3>
+				</div>
 				<div id="info" class="group">
 					<div id="welcome">
 						<h4 class="homepage">Navštivte nás v našem studiu</h4>
