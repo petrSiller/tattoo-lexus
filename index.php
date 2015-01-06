@@ -61,7 +61,12 @@
 					</div>
 				</div>
 				<div class="notice-text text-center">
-					<h3>Vánoční akce piercing: šperk + vpich 450,- Kč</h3>
+					<h3>Akce piercing: šperk + vpich 450,- Kč</h3>
+					<p>
+						Staň se naším fanouškem na 
+						<a href="https://www.facebook.com/150088264320/photos/a.10152445826724321.1073741827.150088264320/10152932467844321/?type=1&theater">facebooku</a>
+						a získej slevu 20%
+					</p>
 				</div>
 				<div id="info" class="group">
 					<div id="welcome">

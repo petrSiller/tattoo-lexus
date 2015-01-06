@@ -184,11 +184,10 @@
 				<div id="leftColumn">
 					<!-- <h1 class="piercing">Tattoo Lexus - piercing Brno<span></span></h1> -->
 					
-					<h1>Vánoční akce piercing</h1>
-					<dl class="notice-text">
-						<dt>šperk + vpich</dt><dd>450,- Kč</dd>
-						<!-- <dt>vpich</dt><dd>500,- Kč</dd> -->
-					</dl>
+					<h1>Piercing</h1>
+					<div class="notice-text">
+						Akce piercing: šperk + vpich 450,- Kč
+					</div>
 					<p>
 						Piercing představuje zkrášlování těla různými šperky (ozdobami), dnes již převážně z <strong>chirurgické oceli</strong> a <strong>titanu</strong>. Ty 
 						se používají nejčastěji, protože se s nimi tělo dobře snáší. Piercing je možné umístit prakticky na jakoukoliv část těla. 

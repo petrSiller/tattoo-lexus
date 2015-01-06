@@ -26,8 +26,9 @@ body										{ background: #000; text-align: center; }
 #mainContent								{ margin: 0 auto; width: 960px; text-align: left; }
 #page										{ background: #000 url(../img/background.png) 0 0 repeat; }
 
-.notice-text								{ background: #f5005b; padding: 5px 10px !important; color: #fff !important; }
+.notice-text								{ background: #f5005b; padding: 5px 10px !important; margin: 10px 10px; color: #fff !important; border-radius: 5px; }
 .notice-text a 								{ color: #fff !important; }
+.notice-text p 								{ padding-top: 5px; }
 
 .text-center 								{ text-align: center; }
 
