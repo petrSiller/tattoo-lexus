@@ -61,7 +61,7 @@
 					</div>
 				</div>
 				<div class="notice-text text-center">
-					<h3>Akce piercing: šperk + vpich 450,- Kč</h3>
+					<h3>Piercing nová cena: šperk + vpich 550,- Kč</h3>
 					<p>
 						Staň se naším fanouškem na 
 						<a href="https://www.facebook.com/150088264320/photos/a.10152445826724321.1073741827.150088264320/10152932467844321/?type=1&theater">facebooku</a>
