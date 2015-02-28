@@ -87,7 +87,6 @@
                     <p>
                     Svěřte Vaše tělo profesionálnímu <strong>tetovacímu salónu v Brně</strong>. Působíme na trhu již od roku 1995. Za tuto dobu jsme nasbírali mnoho zkušeností.
                     </p>
-					<h4>Nejnovější práce<span></span></h4>
 					<div class="sample group">
 						<a href="img/gallery/tattoo5/photo1.jpg" title= "ukázka tetování" class="border"><img src="img/gallery/tattoo5/thumb/photo1.jpg" alt="" class="thumb" /><span></span></a>
 						<a href="img/gallery/tattoo5/photo2.jpg" title= "ukázka tetování" class="border"><img src="img/gallery/tattoo5/thumb/photo2.jpg" alt="" class="thumb" /><span></span></a>
