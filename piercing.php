@@ -186,7 +186,7 @@
 					
 					<h1>Piercing</h1>
 					<div class="notice-text">
-						Akce piercing: šperk + vpich 450,- Kč
+						Akce piercing: šperk + vpich 550,- Kč
 					</div>
 					<p>
 						Piercing představuje zkrášlování těla různými šperky (ozdobami), dnes již převážně z <strong>chirurgické oceli</strong> a <strong>titanu</strong>. Ty 
