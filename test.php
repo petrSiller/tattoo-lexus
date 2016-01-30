@@ -1,7 +1,26 @@
+<?php 
+	$albumId = '150093019320';
+	include "_fb-gallery.php"; ?>
 <? include "_doctype.php"; ?>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
 	<head>
 		<? include "_common.php"; ?>
+        <meta name="keywords" content="tatto lexus, tetování, tetování brno, piercing, henna, pernamentní make-up, permanentní tetování" />
+        <meta name="description" content="Náš tetovací salón v Brně nabízí různé vzory tetování. Navštivte nás ve studiu v Brně a vyberte si tetování dle vaší představy." />
+        <title>Tetování Brno | Tattoo Lexus</title>
+    </head>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<meta name="language" content="cz" />
+		<link rel="stylesheet" href="css/style.css?2" type="text/css" media="screen" />
+		<!--[if gte IE 5]>
+			<link rel="stylesheet" href="css/ie.css?2" type="text/css" media="screen" />
+		<![endif]-->
+		<link rel="stylesheet" href="css/lightbox.css?3" type="text/css" media="screen" />
+		<link rel="stylesheet" href="css/jqueryLightbox.css?2" type="text/css" media="screen" />	
+		<meta name="google-site-verification" content="6fiiL8dfGUu0BSckv6nZ-aZVtPzQ7ZH9ZYjEvZcYpo0" />
         <meta name="keywords" content="tatto lexus, tetování, tetování brno, piercing, henna, pernamentní make-up, permanentní tetování" />
         <meta name="description" content="Náš tetovací salón v Brně nabízí různé vzory tetování. Navštivte nás ve studiu v Brně a vyberte si tetování dle vaší představy." />
         <title>Tetování Brno | Tattoo Lexus</title>
@@ -13,22 +32,20 @@
 		    	include "_header.php";
 			?>
 			<div id="line"></div>
-
 			<div id="mainContent" class="group">
 				<div id="gallery" class="group">
-					<div id="photo1" class="gallery">
+					<div id="photo1" class="gallery type1">
 						<img src="img/renata.jpg" alt="ukázka tetování" class="mainPhoto" />
-						<?php
-						
-							//echo 'Current PHP version: ' . phpversion();
-							// Include the UberGallery class
-							//include('facebook-api/autoload.php');
-						?>
-					</div>
-					<div id="paging">
-						<a href="#photo1" class="active">1</a>
-						<a href="#photo2" >2</a>
-						<a href="#photo3" >3</a>
+						<div class="group" id="photoThumbs">
+							<?php
+								for ($i = 0; $i < count($result[0]); $i++) {
+									 echo '<a href="'.$result[0][$i]->images[1]->source.'" title= "ukázka tetování" >';
+									 echo '<img src="'. $result[0][$i]->images[3]->source .'" alt="ukázka tetování" class="thumb1" />';
+									 echo '</a>';
+								}
+							?>
+						</div>
+						<div id="more-photos" data-url="<?php echo $nextPage;?>">Další fotky</div>
 					</div>
 				</div>
 				<div id="leftColumn">
@@ -38,6 +55,7 @@
 						<strong>tetováním</strong> můžete setkat prakticky na každém kroku. Nejenom na mužích ale i ženách můžete stále více pozorovat různé 
 						vzory tetování, které mohou vyjadřovat názor člověka nebo pouze sloužit jako ozdoba vašeho těla. 
 					</p>
+					<p class="notice-text">Více fotografií a akcí najdete na naší <a href="https://www.facebook.com/pages/Tattoo-LEXUS/150088264320?sk=photos_stream">facebook stránce</a></p>
 					<p>V našem <a href="/studio.php">studiu v Brně</a> děláme <strong>tetování</strong> jak klasická tak <a href="/permanentni-make-up">pernamentní</a>.</p>
 					<h2>Dobře si tetování rozmyslete</h2>
 					<p>
@@ -58,55 +76,13 @@
 					<p>Napište nám nám svůj dotaz na <a href="http://www.facebook.com/pages/Tattoo-LEXUS/150088264320" onClick="javascript:pageTracker._trackPageview('/virtual/facebook');">facebook</a> a nebo nás <a href="/kontakt">kontatkujte</a> přímo</p>
 					<a href="http://www.facebook.com/pages/Tattoo-LEXUS/150088264320" class="button" onClick="javascript:pageTracker._trackPageview('/virtual/facebook');">Napište nám na facebook</a>
 				</div>
-
+				
 				<script type="text/javascript">
-					window.fbAsyncInit = function() {
-						FB.init({
-						  appId      : '736112146462467',
-						  xfbml      : true,
-						  version    : 'v2.1',
-						  cookie: true, 
-						  status: true
-						});
-
-						// *** here is my code ***
-					    if (typeof facebookInit == 'function') {
-					        facebookInit();
-					    }
-					};
-
-					(function(d, s, id){
-						 var js, fjs = d.getElementsByTagName(s)[0];
-						 if (d.getElementById(id)) {return;}
-						 js = d.createElement(s); js.id = id;
-						 js.src = "//connect.facebook.net/en_US/sdk.js";
-						 fjs.parentNode.insertBefore(js, fjs);
-					}(document, 'script', 'facebook-jssdk'));
-
-					function facebookInit(){
-						FB.login();
-						
-						FB.getLoginStatus(function (response) {
-				            if (response.authResponse) {
-				                console.log(response.authResponse.accessToken);
-				            } else {
-				                console.error('no response');
-				            }
-				        });
-
-						FB.api(
-						    "/10152445826724321",
-						    {access_token: 'ebacaafb004c8a701ac5a6566f90e39c'},
-						    function (response) {
-						      if (response && !response.error) {
-						        console.log(response);
-						      }
-						      else {
-						      	console.error('chyba');
-						      }
-						    }
-						);
-					};
+				/* <![CDATA[ */
+					$(document).ready(function() {
+						nextPhotos();
+					});
+				/* ]]> */
 				</script>
 			</div>
 		</div>

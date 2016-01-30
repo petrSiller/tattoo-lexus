@@ -126,6 +126,9 @@ body										{ background: #000; text-align: center; }
 #gallery .gallery a.border 					{ background: #fff; border-top: 2px solid #fff; border-bottom: 2px solid #fff; height: 89px;; }
 #gallery .gallery a img						{ position: relative; display: block; margin: auto; }
 
+#gallery .type1 a 							{ width: 116px; border: 2px solid #fff;}
+#gallery .type1 a img 						{ width: 100%; -webkit-filter: grayscale(100%); filter: grayscale(100%); }
+
 /*#gallery .gallery a img.active				{ top: -93px; } */
 #gallery .gallery a span					{ position: absolute; bottom: 3px; right: 3px; width: 68px; height: 40px; background: url(../img/new-label.gif) 0 0 repeat;  }
 #gallery .gallery a span
@@ -184,5 +187,7 @@ body										{ background: #000; text-align: center; }
 #footer										{ padding: 15px 30px; background: #000; color: #ccc; }
 #footer	p									{ margin: 0 auto; width: 920px; text-align: left; }
 #footer	p #facebook							{ float: left; padding: 6px 0 6px 35px; background: url(../img/fb-icon1.png) 0 0 no-repeat; color: #ccc; }
+
+#more-photos								{ clear: both; margin-top: 10px; text-align: center; color: #fff; cursor: pointer; }
 
 				
